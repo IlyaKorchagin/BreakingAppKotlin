@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GoodFootBreaking.iml" filepath="$PROJECT_DIR$/GoodFootBreaking.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GoodFootBreaking.app.unitTest.iml" />
     </modules>
   </component>
 </project>
