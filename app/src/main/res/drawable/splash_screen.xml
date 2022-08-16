@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+    <shape>
+        <gradient
+            android:angle="90"
+            android:endColor="#e6e6e6"
+            android:startColor="#e6e6e6"
+            android:type="linear" />
+    </shape>
+    </item>
+<item
+    android:gravity="center">
+    <bitmap
+        android:gravity="center"
+        android:src="@drawable/logonoword"/>
+</item>
+</layer-list>

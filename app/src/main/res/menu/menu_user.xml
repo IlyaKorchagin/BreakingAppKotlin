@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/MyRoomMenuBtn"
+        android:title="@string/MyRoom"
+        android:icon="@drawable/mycabinet"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/RatingMenuBtn"
+        android:title="@string/RatingTable"
+        android:icon="@drawable/rating"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/EventsBtn"
+        android:title="@string/Events"
+        android:icon="@drawable/calendar"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+</menu>

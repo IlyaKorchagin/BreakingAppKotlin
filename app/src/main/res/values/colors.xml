@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0A060606</color>
+    <color name="colorAccent">#F26450</color>
+    <color name="colorLog">#f2b60f</color>
+    <color name="white">#ffff</color>
+    <color name="one">#D64C08</color>
+    <color name="two">#fc5700</color>
+    <color name="three">#fc7200</color>
+    <color name="four">#fc9700</color>
+    <color name="five">#fcae00</color>
+    <color name="six">#fcd000</color>
+    <color name="seven">#fce300</color>
+    <color name="eight">#fcfa08</color>
+    <color name="background">#e6e6e6</color>
+    <color name="logo_red">#f26450</color>          // kids Pro
+    <color name="logo_sea">#27baa8</color>          // второгодки
+    <color name="logo_green">#64bf72</color>        // начинающие
+    <color name="logo_yellow">#fcde06</color>
+    <color name="logo_orange">#f58f1b</color>       // продолжающие
+    <color name="baby">#f51bf5</color>              // дети до 7 лет
+
+    <color name="local">#64bf72</color>
+    <color name="city">#19c2b5</color>
+    <color name="country">#f91d07</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database-collection:16.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/318e04956a285e6ac0c77fe3b7358531/firebase-database-collection-16.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-2/files-2.1/318e04956a285e6ac0c77fe3b7358531/firebase-database-collection-16.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-2/files-2.1/d0d773504ee7a6575ee5f66e275182b9/jetified-firebase-database-collection-16.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-3/b852ff09c1fdbaec0316612b69a61638/transformed/jetified-firebase-database-collection-16.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../gradle/caches/transforms-3/b852ff09c1fdbaec0316612b69a61638/transformed/jetified-firebase-database-collection-16.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-3/b852ff09c1fdbaec0316612b69a61638/transformed/jetified-firebase-database-collection-16.0.0/res" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-3/b852ff09c1fdbaec0316612b69a61638/transformed/jetified-firebase-database-collection-16.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/gradle/caches/transforms-3/b852ff09c1fdbaec0316612b69a61638/transformed/jetified-firebase-database-collection-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-3/b852ff09c1fdbaec0316612b69a61638/transformed/jetified-firebase-database-collection-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d6ec4ae565329d9055ac60f703f509e/transformed/jetified-firebase-database-collection-16.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4d6ec4ae565329d9055ac60f703f509e/transformed/jetified-firebase-database-collection-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d6ec4ae565329d9055ac60f703f509e/transformed/jetified-firebase-database-collection-16.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

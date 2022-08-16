@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-auth-interop:16.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e51f26fd7611e2cdf679306e24017bd/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e51f26fd7611e2cdf679306e24017bd/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e51f26fd7611e2cdf679306e24017bd/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b14b724fcbb863c8fcfed252cc0096b/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b14b724fcbb863c8fcfed252cc0096b/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b14b724fcbb863c8fcfed252cc0096b/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c5d24b65314a550daf4dd40ce7c7be73/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-2/files-2.1/9a17ca4e32aa4d79bb2477941c12ddf5/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-2/files-2.1/17648e9cccc9295b9c47efe53eb3c653/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-3/33ac85a6998a229cbe734ff579738b1e/transformed/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../gradle/caches/transforms-3/33ac85a6998a229cbe734ff579738b1e/transformed/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-3/33ac85a6998a229cbe734ff579738b1e/transformed/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-3/33ac85a6998a229cbe734ff579738b1e/transformed/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="jar://$USER_HOME$/gradle/caches/transforms-3/33ac85a6998a229cbe734ff579738b1e/transformed/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-3/33ac85a6998a229cbe734ff579738b1e/transformed/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/565869b21ac214038e0e24fea8bbce1b/transformed/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/565869b21ac214038e0e24fea8bbce1b/transformed/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/565869b21ac214038e0e24fea8bbce1b/transformed/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02034a87f79c6fdc0cc72038cc76e77c/transformed/jetified-firebase-auth-interop-16.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/02034a87f79c6fdc0cc72038cc76e77c/transformed/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02034a87f79c6fdc0cc72038cc76e77c/transformed/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c137654fdcd4fa8003a50ca626ab97e6/transformed/jetified-firebase-auth-interop-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c137654fdcd4fa8003a50ca626ab97e6/transformed/jetified-firebase-auth-interop-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c137654fdcd4fa8003a50ca626ab97e6/transformed/jetified-firebase-auth-interop-16.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

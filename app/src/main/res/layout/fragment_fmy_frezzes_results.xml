@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="handler"
+            type="com.example.goodfootbreaking.fragments.FMyFrezzesResults" />
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FMyFrezzesResults">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            // Baby Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imageBabyButton"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/babyfrezze" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/babyTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Baby"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/babyProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Baby Frezze
+
+            // Shoulder Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageShoulder"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/shoulderclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/shoulderTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Shoulder"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/shoulderProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Shoulder Frezze
+
+            // Turtel Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageTurtel"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/turtelclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/turtelTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Turtle"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/turtleProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Turtel Frezze
+
+            // Head Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageHead"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/headfrezzeclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/headTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Head"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/headProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Head Frezze
+
+            // Chair Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageChair"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/chairclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/chairTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Chair"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/chairProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Chair Frezze
+
+
+
+            // Elbow Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageElbow"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/elbowclick" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/elbowTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Elbow"
+                        android:textSize="16dp"
+                        android:textStyle="bold"/>
+
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/elbowProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Elbow Frezze
+
+            // Head_Hollowback Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageHeadHollowback"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/headhollowbackclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/headHollowbackTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Head Hollowback"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/headHollowbackProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Head_Hollowback Frezze
+
+
+            //  OneHand Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageOnehand"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/onehandclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/oneHandTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="One hand"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/oneHandProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // OneHand Frezze
+
+            //  Invert Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageInvert"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/invertclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/invertTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Invert"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/invertProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Invert Frezze
+
+            // Hollowback Frezze
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageHollowback"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/hollowbackclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hollowbackTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Hollowback"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/hollowbackProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Hollowback Frezze
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+</layout>

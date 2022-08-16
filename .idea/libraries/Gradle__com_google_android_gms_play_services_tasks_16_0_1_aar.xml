@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-tasks:16.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cc380ce09649f3d23b23ba06441d784/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cc380ce09649f3d23b23ba06441d784/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cc380ce09649f3d23b23ba06441d784/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e71c26a974ae1bf9467778c5ed02d1d6/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e71c26a974ae1bf9467778c5ed02d1d6/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e71c26a974ae1bf9467778c5ed02d1d6/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abe3ad8d08438436326d7fa052082132/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-2/files-2.1/be62db6879d8994d9ab1fb841f38be33/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-2/files-2.1/f9f643db69f8a5c8493180f9ad21d2a0/jetified-play-services-tasks-16.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../gradle/caches/transforms-3/9fcdc2e998ab2f69f3f0fdc803d95be5/transformed/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-3/9fcdc2e998ab2f69f3f0fdc803d95be5/transformed/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../gradle/caches/transforms-3/9fcdc2e998ab2f69f3f0fdc803d95be5/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/gradle/caches/transforms-3/9fcdc2e998ab2f69f3f0fdc803d95be5/transformed/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-3/9fcdc2e998ab2f69f3f0fdc803d95be5/transformed/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-3/9fcdc2e998ab2f69f3f0fdc803d95be5/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6e81ec3b95940743cd741fa1035443ac/transformed/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e81ec3b95940743cd741fa1035443ac/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e81ec3b95940743cd741fa1035443ac/transformed/jetified-play-services-tasks-16.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3a2d303e66eff73847c08485d0af0bf9/transformed/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a2d303e66eff73847c08485d0af0bf9/transformed/jetified-play-services-tasks-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3a2d303e66eff73847c08485d0af0bf9/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/530396d7f41adbf4c3f4424f3c5da86c/transformed/jetified-play-services-tasks-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/530396d7f41adbf4c3f4424f3c5da86c/transformed/jetified-play-services-tasks-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/530396d7f41adbf4c3f4424f3c5da86c/transformed/jetified-play-services-tasks-16.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

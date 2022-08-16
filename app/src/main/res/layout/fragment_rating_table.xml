@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FRatingTable">
+
+
+    <Spinner
+        android:id="@+id/sortspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:entries="@array/sortList"
+        android:spinnerMode="dropdown" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/ratingtabtitle1" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:id="@+id/RatingTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

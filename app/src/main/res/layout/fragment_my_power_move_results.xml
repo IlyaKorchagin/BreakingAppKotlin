@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="handler"
+            type="com.example.goodfootbreaking.fragments.MyPowerMoveResults" />
+    </data>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyPowerMoveResults">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            // backspin
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imageBackspin"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/backspinclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/backspinTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Backspin"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/backspinProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // backspin
+
+            // Swipe
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageSwipes"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/swipesclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/swipeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Swipes"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/swipeProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Swipe
+
+            // Turtle Move
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageTurtelMove"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/turtelclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/turtelMovetitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Turtle"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/turtleMoveProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Turtel Move
+
+            // Windmill
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageWindmill"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/windmillclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/windmillTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Windmill"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/windmillProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // windmill
+
+
+            // Headspin
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imageHeadspin"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/headfrezzeclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/headspinTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Headspin"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/headspinProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Headspin
+
+
+
+            // Cricket
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/imageCricket"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/cricketclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cricketTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Cricket"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/cricketProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Cricket
+
+            // Web
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageWeb"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/webclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/webTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Web"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/webProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Web
+
+
+            // Wolf
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageWolf"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/wolfclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/wolfTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Wolf"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/wolfProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Wolf
+
+            // Muchmill
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageMunchmill"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/munchmillclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/muchmillTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Munchmill"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/muchmillProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Munchmill
+
+            // Flare
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageFlare"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/flareclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/flareTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Flare"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/flareProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Flare
+
+            // Ninety-nine
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageNinety"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/ninetyclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ninetynineTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Ninety-nine"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/ninetyNineProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Ninety-nine
+
+
+            // Halo
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageHalo"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/haloclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/haloTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Halo"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/haloProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Halo
+
+
+
+            // Jackhammer
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageJackhammer"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/jackhammerclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/jackhammerTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Jackhammer"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/jackhammerProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Jackhammer
+
+            // Ufo
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageUfo"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/ufoclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ufoTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Ufo"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/ufoProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+                </LinearLayout>
+
+            </LinearLayout> // Ufo
+
+            // ElbowAirflare
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageElbowAirflare"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/elbowairflareclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/elbowAirflareTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="ElbowAirflare"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/elbowAirflareProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // ElbowAirflare
+
+            // Airflare
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageAirflare"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/airflareclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/airflareTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Airflare"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/airflareProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Airflare
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
+</layout>

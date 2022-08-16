@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="handler"
+            type="com.example.goodfootbreaking.fragments.MyStretchResults" />
+    </data>
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyStretchResults">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            // Twine
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageTwine"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/twineclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/twineTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Шпагат"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/twineProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Twine
+
+            // Fold
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageFold"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/foldclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/foldTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Складка"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/foldProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Fold
+
+            // Buterfly
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButterfly"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/butterflyclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/buterflyTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Бабочка"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/buterflyProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout> // Buterfly
+
+            // Shoulders
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageShoulders"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:cropToPadding="true"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/shouldersclick" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/shouldersTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Плечи"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.kofigyan.stateprogressbar.StateProgressBar
+                        android:id="@+id/shouldersProgressBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        app:spb_currentStateNumber="three"
+                        app:spb_maxStateNumber="five"
+                        app:spb_stateBackgroundColor="#f26450"
+                        app:spb_stateForegroundColor="#64bf72"
+                        app:spb_stateNumberBackgroundColor="#eeeeee"
+                        app:spb_stateNumberForegroundColor="#eeeeee"
+                        app:spb_currentStateDescriptionColor="#f26450"
+                        app:spb_stateDescriptionColor="#c5c7c5"
+                        app:spb_checkStateCompleted="true"/>
+                </LinearLayout>
+
+            </LinearLayout> // Shoulders
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+</layout>

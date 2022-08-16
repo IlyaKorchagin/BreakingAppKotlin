@@ -1,0 +1,531 @@
+<resources>
+    <string name="app_name">BreakingApp</string>
+    <string name="rating">Рейтинговая Таблица</string>
+    <string name="myroom">Личный кабинет</string>
+    <string name="enter">ВОЙТИ</string>
+    <string name="FindPupil">Введите фамилию</string>
+    <string name="editTitle">Поиск по имени</string>
+    <string name="editName">Логин</string>
+    <string name="editRating">Рэйтинг</string>
+    <string name="editAvatar">Аватар</string>
+    <string name="findAvatar">Поиск в Галерее</string>
+    <string name="AddToBD">Добавить в БД</string>
+    <string name="Search">Поиск</string>
+    <string name="SaveChanges">Изменить</string>
+    <string name="editBD">Управление БД</string>
+    <string name="create_new_pupil" translatable="false">Добавить нового ученика</string>
+    <string name="showBD">Просмотр БД</string>
+    <string name="Events">Календарь мероприятий</string>
+    <string name="clearBD">Очистить БД</string>
+    <string name="Registration">Авторизация</string>
+    <string name="ForgetPass">Забыли пароль?</string>
+    <string name="Password">Восстановление пароля</string>
+    <string name="EmptyFields">Заполните пустые поля</string>
+    <string name="fullclearBD">Полностью очистить БД</string>
+    <string name="NoclearBD">Я передумал</string>
+    <string name="MyRoom">Личный кабинет</string>
+    <string name="RatingTable">Рейтинговая таблица</string>
+    <string name="Frezzes">Freeze</string>
+    <string name="AppTitle">Брейкинг</string>
+
+    <string name="baby10percent">стойка на сильную сторону более 10 сек</string>
+    <string name="baby20percent">стойка на слабую сторону более 10 сек</string>
+    <string name="baby30percent">стойка на сильную сторону, не касаясь головой пола, более 20 сек</string>
+    <string name="baby40percent">стойка на слабую сторону, не касаясь головой пола, более 20 сек</string>
+    <string name="baby50percent">переход из Baby Frezze в Turtel Frezze в обе стороны по отдельности, не касаясь головой пола</string>
+    <string name="baby60percent">переход из стороны в сторону через Turtel Frezze, не роняя ноги, более 3 раз</string>
+    <string name="baby70percent">переход из стороны в сторону через Turtel Frezze, не роняя ноги, более 5 раз </string>
+    <string name="baby80percent">переход из стороны в сторону через Turtel Frezze, не роняя ноги более 3 раз, не касаясь головой пола</string>
+    <string name="baby90percent">переход из стороны в сторону через Turtel Frezze, не роняя ноги более 5 раз, не касаясь головой пола</string>
+    <string name="baby100percent">переход из стороны в сторону через Turtel Frezze, не роняя ноги более 10 раз, не касаясь головой пола</string>
+
+    <string name="turtelfrezze10percent">стойка на сильной руке более 10 сек, не касаясь ногами пола</string>
+    <string name="turtelfrezze20percent">стойка на слабой руке более 10 сек, не касаясь ногами пола</string>
+    <string name="turtelfrezze30percent">стойка на сильной руке более 20 сек, не касаясь ногами пола</string>
+    <string name="turtelfrezze40percent">стойка на слабой руке более 20 сек, не касаясь ногами пола</string>
+    <string name="turtelfrezze50percent">переход с одной руки на другую более 2 раз, не касаясь ногами и головой пола</string>
+    <string name="turtelfrezze60percent">переход с одной руки на другую более 4 раз, не касаясь ногами и головой пола</string>
+    <string name="turtelfrezze70percent">стойка на одной сильной руке более 30 сек</string>
+    <string name="turtelfrezze80percent">стойка на одной слабой руке более 30 сек</string>
+    <string name="turtelfrezze90percent">стойка на одной сильной руке более 1 мин</string>
+    <string name="turtelfrezze100percent">стойка на одной слабой руке более 1 мин</string>
+
+    <string name="headfrezze10percent">стойка на голове, колени к животу, спина прямая более 10 сек</string>
+    <string name="headfrezze20percent">стойка на голове, колени к животу, спина прямая более 20 сек</string>
+    <string name="headfrezze30percent">стойка на голове, ножки прямые и держим перед собой, спина прямая более 30 сек</string>
+    <string name="headfrezze40percent">из предыдущего положения чертим в воздухе круги ногами, скручивая при этом корпус, более 3 раз</string>
+    <string name="headfrezze50percent">из предыдущего положения чертим в воздухе круги ногами, скручивая при этом корпус, более 5 раз</string>
+    <string name="headfrezze60percent">из стойки на голове опускаем ноги вниз, касаясь пола и поднимаем на вверх, ноги при этом держим вместе более 3 раз</string>
+    <string name="headfrezze70percent">из стойки на голове опускаем ноги вниз, касаясь пола и поднимаем на вверх, ноги при этом держим вместе более 5 раз</string>
+    <string name="headfrezze80percent">стойка на голове с одной сильной рукой на полу более 10 сек</string>
+    <string name="headfrezze90percent">стойка на голове с одной слабой рукой на полу более 10 сек</string>
+    <string name="headfrezze100percent">стойка на голове с одной рукой(слабой и сильной) на полу более 20 сек</string>
+
+    <string name="shoulderfrezze10percent">стойка на плече, одна нога вверху, другая на полу, таз держим высоко более 10 сек</string>
+    <string name="shoulderfrezze20percent">отрываем ножку от пола и держим баланс на одной стороне более 10 сек</string>
+    <string name="shoulderfrezze30percent">тоже самое (20%) на другую сторону более 10 сек</string>
+    <string name="shoulderfrezze40percent">закидываем нижнюю ногу на руку, стоящую перед собой и держим баланс более 10 сек</string>
+    <string name="shoulderfrezze50percent">тоже самое (40%) на другую сторону более 10 сек</string>
+    <string name="shoulderfrezze60percent">переход из плеча в Baby Frezze и назад более 2 раз</string>
+    <string name="shoulderfrezze70percent">переход из плеча в Baby Frezze и назад более 5 раз</string>
+    <string name="shoulderfrezze80percent">баланс без рук(на обе стороны) более 5 сек</string>
+    <string name="shoulderfrezze90percent">баланс без рук(на обе стороны) более 10 сек</string>
+    <string name="shoulderfrezze100percent">баланс без рук(на обе стороны) более 20 сек</string>
+
+
+    <string name="chair10percent">стандартный  вариант более 10 сек</string>
+    <string name="chair20percent">стандартный  вариант более 20 сек</string>
+    <string name="chair30percent">ножки отрываем, колени согнуты и теням на себя 10 сек</string>
+    <string name="chair40percent">ножки отрываем, колени согнуты и теням на себя 20 сек</string>
+    <string name="chair50percent">ножки выпрямляем и теням на себя 10 сек</string>
+    <string name="chair60percent">ножки выпрямляем и теням на себя 20 сек</string>
+    <string name="chair70percent">ножки выпрямляем и теням на себя + отрываем голову + второй рукой держимся за опору (поручень, стул  и т.д.) более 10 сек</string>
+    <string name="chair80percent">ножки выпрямляем и теням на себя + отрываем голову + второй рукой держимся за опору (поручень, стул  и т.д.) более 20 сек</string>
+    <string name="chair90percent">Air Chair Frezze удержать 2 сек</string>
+    <string name="chair100percent">Air Chair Frezze удержать более 4 сек</string>
+
+    <string name="headhollowback10percent">из стойки на голове, одну ногу держим перед собой, вторую уводим назад и держим баланс более 5 сек</string>
+    <string name="headhollowback20percent">из положения (10%) убираем руки назад и держим баланс более 5 сек</string>
+    <string name="headhollowback30percent">в положение (20%)  держим баланс более 10 сек</string>
+    <string name="headhollowback40percent">из положения (30%)стараемся увезти руки максимально назад и удержать баланс более 10 сек</string>
+    <string name="headhollowback50percent">из положения (40%)стараемся увезти заднюю ногу максимально назад и удержать баланс более 10 сек</string>
+    <string name="headhollowback60percent">из положения (50%) начинаем сгибать переднюю ногу и уводить ее назад</string>
+    <string name="headhollowback70percent">из положения (60%) стараемся увести обе ноги назад и выпрямить, прогнувшись при этом в спине</string>
+    <string name="headhollowback80percent">руки максимально назад, ноги прямые более 5 сек</string>
+    <string name="headhollowback90percent">руки максимально назад, ноги прямые более 10 сек</string>
+    <string name="headhollowback100percent">руки максимально назад, ноги прямые более 20 сек</string>
+
+    <string name="hollowback10percent">одной ногой касаясь стены, ноги согнутые в коленях с прогибом в спине более 5 сек</string>
+    <string name="hollowback20percent">одной ногой касаясь стены, ноги согнутые в коленях с прогибом в спине более 10 сек</string>
+    <string name="hollowback30percent">одной ногой касаясь стены, ноги согнутые в коленях с прогибом в спине более 20 сек</string>
+    <string name="hollowback40percent">одной ногой касаясь стены, ноги согнутые в коленях с прогибом в спине более 5 сек</string>
+    <string name="hollowback50percent">одной ногой касаясь стены, ноги прямые с прогибом в спине более 10 сек</string>
+    <string name="hollowback60percent">ноги согнутые в коленях с прогибом в спине более 2 сек</string>
+    <string name="hollowback70percent">ноги согнутые в коленях с прогибом в спине более 5 сек</string>
+    <string name="hollowback80percent">ноги согнутые в коленях с прогибом в спине более 10 сек</string>
+    <string name="hollowback90percent">ноги прямые (максимально назад) более 2 сек</string>
+    <string name="hollowback100percent">ноги прямые (максимально назад) более 5 сек</string>
+
+    <string name="onehand10percent">баланс на одной руке, ноги на себя, таз высоко, вторая рука касается пола 5-ю пальцами, не ладонями! На каждую сторону более 2 сек</string>
+    <string name="onehand20percent">баланс на одной руке (вторая рука касается пола 5-ю пальцами) на каждую сторону более 5 сек</string>
+    <string name="onehand30percent">баланс на одной руке (вторая рука касается пола 5-ю пальцами) на каждую сторону более 10 сек</string>
+    <string name="onehand40percent">баланс на одной руке (вторая рука касается пола 5-ю пальцами) на каждую сторону более 20 сек</string>
+    <string name="onehand50percent">баланс на одной руке (вторая рука касается пола только 3-мя пальцами) на каждую сторону более 5 сек</string>
+    <string name="onehand60percent">баланс на одной руке (вторая рука касается пола только 3-мя пальцами) на каждую сторону более 10 сек</string>
+    <string name="onehand70percent">баланс на одной руке (вторая рука касается пола только 3-мя пальцами) на каждую сторону более 20 сек</string>
+    <string name="onehand80percent">баланс на одной руке на каждую сторону более 5 сек</string>
+    <string name="onehand90percent">баланс на одной руке на каждую сторону более 10 сек</string>
+    <string name="onehand100percent">баланс на одной руке на каждую сторону более 20 сек</string>
+
+    <string name="invert10percent">стоим спиной к стене, тазом касаемся стены, ноги согнутые, держим более 10 сек</string>
+    <string name="invert20percent">стоим спиной к стене, тазом касаемся стены, ноги согнутые, держим более 20 сек</string>
+    <string name="invert30percent">стоим спиной к стене, тазом касаемся стены, ноги согнутые, держим более 30 сек</string>
+    <string name="invert40percent">стоим лицом к стене, ноги прямые, носками касаемся стены, держим более 10 сек</string>
+    <string name="invert50percent">стоим лицом к стене, ноги прямые, носками касаемся стены, держим более 20 сек</string>
+    <string name="invert60percent">ноги согнутые (скрещены) более 5 сек</string>
+    <string name="invert70percent">ноги согнутые (скрещены) более 10 сек</string>
+    <string name="invert80percent">ноги прямые, максимально на себя более 2 сек</string>
+    <string name="invert90percent">ноги прямые, максимально на себя более 5 сек</string>
+    <string name="invert100percent">ноги прямые, максимально на себя более 10 сек </string>
+
+    <string name="elbow10percent">держим баланс на обе стороны более 5 сек</string>
+    <string name="elbow20percent">держим баланс на обе стороны более 10 сек</string>
+    <string name="elbow30percent">держим баланс на обе стороны более 20 сек</string>
+    <string name="elbow40percent">держим баланс на обе стороны более 40 сек</string>
+    <string name="elbow50percent">держим баланс на обе стороны более 1 мин</string>
+    <string name="elbow60percent">переход из локтя в руки и назад</string>
+    <string name="elbow70percent">переход из локтя в руки и назад в обе стороны</string>
+    <string name="elbow80percent">переход из локтя в руки и назад в обе стороны более 3 раз</string>
+    <string name="elbow90percent">переход из локтя в руки и назад в обе стороны более 5 раз</string>
+    <string name="elbow100percent">держим баланс на одной руке на обе стороны более 5 сек</string>
+
+    <string name="twine10percent">лежим на спине, угол между ногами 90 градусов, колени прямые</string>
+    <string name="twine20percent">лежим на спине, угол между ногами 100 градусов, колени прямые</string>
+    <string name="twine30percent">лежим на спине, угол между ногами 110 градусов, колени прямые</string>
+    <string name="twine40percent">лежим на спине, угол между ногами 120 градусов, колени прямые</string>
+    <string name="twine50percent">лежим на спине, угол между ногами 130 градусов, колени прямые</string>
+    <string name="twine60percent">лежим на спине, угол между ногами 140 градусов, колени прямые</string>
+    <string name="twine70percent">лежим на спине, угол между ногами 150 градусов, колени прямые</string>
+    <string name="twine80percent">лежим на спине, угол между ногами 160 градусов, колени прямые</string>
+    <string name="twine90percent">лежим на спине, угол между ногами 170 градусов, колени прямые</string>
+    <string name="twine100percent">сидим в полном шпагате, животом касаемся пола</string>
+
+    <string name="fold10percent">угол между туловищем и ногами 90 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold20percent">угол между туловищем и ногами 80 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold30percent">угол между туловищем и ногами 70 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold40percent">угол между туловищем и ногами 60 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold50percent">угол между туловищем и ногами 50 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold60percent">угол между туловищем и ногами 40 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold70percent">угол между туловищем и ногами 30 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold80percent">угол между туловищем и ногами 20 градусов, спина прямая, ноги не отрываются от пола</string>
+    <string name="fold90percent">угол между туловищем и ногами 10 градусов, спина прямая, ноги не отрываются от пола </string>
+    <string name="fold100percent">животом касаемся колен, спина прямая, ноги не отрываются от пола</string>
+
+    <string name="butterfly10percent">угол между коленями и полом 45 градусов</string>
+    <string name="butterfly20percent">угол между коленями и полом 40 градусов</string>
+    <string name="butterfly30percent">угол между коленями и полом 35 градусов</string>
+    <string name="butterfly40percent">угол между коленями и полом 30 градусов</string>
+    <string name="butterfly50percent">угол между коленями и полом 25 градусов</string>
+    <string name="butterfly60percent">угол между коленями и полом 20 градусов</string>
+    <string name="butterfly70percent">угол между коленями и полом 15 градусов</string>
+    <string name="butterfly80percent">угол между коленями и полом 10 градусов</string>
+    <string name="butterfly90percent">угол между коленями и полом 5 градусов</string>
+    <string name="butterfly100percent">лежим на спине, колени касаются пола</string>
+
+    <string name="shoulders10percent">угол между руками и туловищем 90 градусам</string>
+    <string name="shoulders20percent">угол между руками и туловищем 100 градусам</string>
+    <string name="shoulders30percent">угол между руками и туловищем 110 градусам</string>
+    <string name="shoulders40percent">угол между руками и туловищем 120 градусам</string>
+    <string name="shoulders50percent">угол между руками и туловищем 130 градусам</string>
+    <string name="shoulders60percent">угол между руками и туловищем 140 градусам</string>
+    <string name="shoulders70percent">угол между руками и туловищем 150 градусам</string>
+    <string name="shoulders80percent">угол между руками и туловищем 160 градусам</string>
+    <string name="shoulders90percent">угол между руками и туловищем 170 градусам</string>
+    <string name="shoulders100percent">угол между руками и туловищем близок к 180 градусам</string>
+
+    <string name="angle10percent">пятки на полу, таз высоко более 10 сек</string>
+    <string name="angle20percent">пятки на полу, таз высоко более 20 сек </string>
+    <string name="angle30percent">ножки по турецки, не касаясь земли более 10 сек</string>
+    <string name="angle40percent">ножки по турецки, не касаясь земли более 20 сек</string>
+    <string name="angle50percent">ножки полусогнутые более 10 сек</string>
+    <string name="angle60percent">ножки полусогнутые более 20 сек</string>
+    <string name="angle70percent">ножки прямые (90 градусов) более 10 сек.</string>
+    <string name="angle80percent">ножки прямые (90 градусов) более 20 сек.</string>
+    <string name="angle90percent">ноги максимально на себя более 5 сек</string>
+    <string name="angle100percent">ноги максимально на себя более 10 сек</string>
+
+    <string name="bridge10percent">встаем в обычный мостик</string>
+    <string name="bridge20percent">из положения (10%) делаем более 5 отжиманий</string>
+    <string name="bridge30percent">из положения (10%), за счет растяжки плечей, выводим голову за линию рук </string>
+    <string name="bridge40percent">из положения (30%) поочередно отрываем ноги от пола</string>
+    <string name="bridge50percent">из положения (30%) поочередно поднимаем ноги от пола максиально вверх</string>
+    <string name="bridge60percent">из положения (50%) когда одна нога поднята пытаемся слегка выпрыгнуть с опорной ноги вверх</string>
+    <string name="bridge70percent">из положения (50%) когда одна нога поднята выпрыгиваем с опорной ноги вверх, меняем ноги</string>
+    <string name="bridge80percent">из положения (50%) выпрыгиваем  c одной ноги и стараемся выйти в стойку на руках</string>
+    <string name="bridge90percent">выпрыгиваем и перелетаем через голову и встаем на ноги</string>
+    <string name="bridge100percent">из стойки на ногах, прогибаясь назад  уходим в мостик, затем выпрыгиваем и перелетаем через голову и встаем на ноги </string>
+
+    <string name="fingers10percent">стойка более 5 сек</string>
+    <string name="fingers20percent">стойка более 10 сек</string>
+    <string name="fingers30percent">стойка более 20 сек</string>
+    <string name="fingers40percent">стойка более 40 сек</string>
+    <string name="fingers50percent">стойка более 1 мин</string>
+    <string name="fingers60percent">отжимания на пальцах более 10 раз</string>
+    <string name="fingers70percent">отжимания на пальцах более 20 раз</string>
+    <string name="fingers80percent">держим уголок на пальцах более 5 сек</string>
+    <string name="fingers90percent">держим уголок на пальцах более 10 сек</string>
+    <string name="fingers100percent">держим уголок на пальцах более 20 сек</string>
+
+    <string name="handstand10percent">у стенки более 30 сек</string>
+    <string name="handstand20percent">у стенки более 1 минуты </string>
+    <string name="handstand30percent">стойка колени к животу более 5 сек</string>
+    <string name="handstand40percent">стойка колени к животу более 10 сек</string>
+    <string name="handstand50percent">стойка колени к животу более 20 сек</string>
+    <string name="handstand60percent">стойка колени к животу более 30 сек</string>
+    <string name="handstand70percent">таз назад, ноги на себя более 30 сек</string>
+    <string name="handstand80percent">выходим с копейки в руки и фиксируем положение </string>
+    <string name="handstand90percent">выходим с копейки в руки и переставляем руки по кругу 5 кругов</string>
+    <string name="handstand100percent">выходим с копейки в руки и переставляем руки по кругу более 10 кругов</string>
+
+    <string name="horizont10percent">лягушка более 10 сек</string>
+    <string name="horizont20percent">лягушка более 20 сек</string>
+    <string name="horizont30percent">руки согнуты, колени упираются чуть выше локтей более 10 сек</string>
+    <string name="horizont40percent">руки согнуты, колени упираются чуть выше локтей более 20 сек</string>
+    <string name="horizont50percent">ножки на весу, таз низко более 20 сек</string>
+    <string name="horizont60percent">ножки на весу, таз высоко более 10 сек</string>
+    <string name="horizont70percent">ножки на весу, таз высоко более 20 сек</string>
+    <string name="horizont80percent">со стойки на руках, медленно опускаемся в горизонт </string>
+    <string name="horizont90percent">со стойки на руках, опускаемся в горизонт и держим более 2 сек</string>
+    <string name="horizont100percent">со стойки на руках, выходим в горизонт и держим более 5 сек</string>
+
+    <string name="pushups10percent">обычные отжимания более 10 раз </string>
+    <string name="pushups20percent">обычные отжимания более 20 раз</string>
+    <string name="pushups30percent">руки на уровни груди более 10 раз</string>
+    <string name="pushups40percent">руки на уровни груди более 20 раз</string>
+    <string name="pushups50percent">отжимания с хлопками более 10 раз</string>
+    <string name="pushups60percent">отжимания с хлопками более 20 раз</string>
+    <string name="pushups70percent">руки на уровни живота более 10 раз</string>
+    <string name="pushups80percent">руки на уровни живота более 20 раз</string>
+    <string name="pushups90percent">отжимание в горизонте</string>
+    <string name="pushups100percent">отжимание в горизонте более 3 раз</string>
+
+    <string name="turtel10percent">из Turtel Frezze делаем два шага и переходим в другую руку, затем возвращаемся в исходную позицию и повторяем, делаем так по кругу более 2 кругов</string>
+    <string name="turtel20percent">из Turtel Frezze делаем два шага и переходим в другую руку, затем возвращаемся в исходную позицию и повторяем, делаем так по кругу более 5 кругов</string>
+    <string name="turtel30percent">переходим с руки на руку за счет рывка более 2 кругов</string>
+    <string name="turtel40percent">переходим с руки на руку за счет рывка более 5 кругов</string>
+    <string name="turtel50percent">делаем 1 оборот, ноги не касаются пола</string>
+    <string name="turtel60percent">делаем 2 оборота</string>
+    <string name="turtel70percent">делаем 4 оборота</string>
+    <string name="turtel80percent">делаем 6 оборотов</string>
+    <string name="turtel90percent">делаем 8 оборотов</string>
+    <string name="turtel100percent">делаем 10 оборотов</string>
+
+    <string name="backspin10percent">из исходного положения ногой рисуем круг параллельно полу и переходим вниз в руку</string>
+    <string name="backspin20percent">ногу уводим максимально на себя </string>
+    <string name="backspin30percent">рисуем круг второй ногой параллельно полу и переходим на лопатки</string>
+    <string name="backspin40percent">пробуем делать махи первой ногой</string>
+    <string name="backspin50percent">пробуем делать махи второй ногой</string>
+    <string name="backspin60percent">делаем 1 оборот с прямыми ногами</string>
+    <string name="backspin70percent">сгибаем ноги в коленях и тянем к животу, когда мах закончился</string>
+    <string name="backspin80percent">делаем 2 оборота</string>
+    <string name="backspin90percent">делаем 3 оборота</string>
+    <string name="backspin100percent">делаем более 3 оборотов</string>
+
+    <string name="swipes10percent">делаем Baby Swipes более 2 раз</string>
+    <string name="swipes20percent">делаем Baby Swipes более 5 раз</string>
+    <string name="swipes30percent">делаем Baby Swipes, таз поднимаем более 2 раз</string>
+    <string name="swipes40percent">делаем Baby Swipes, таз поднимаем более 5 раз</string>
+    <string name="swipes50percent">заходим с верху (с копейки) и таз держим низко  более 2 раз</string>
+    <string name="swipes60percent">заходим с верху (с копейки) и таз держим низко  более 5 раз</string>
+    <string name="swipes70percent">заходим с верху (с копейки) и таз держим высоко  более 2 раз</string>
+    <string name="swipes80percent">заходим с верху (с копейки) и таз держим высоко  более 5 раз</string>
+    <string name="swipes90percent">заходим с верху (с копейки) и делаем максимально амплитудно более 2 раз</string>
+    <string name="swipes100percent">заходим с верху (с копейки) и делаем максимально амплитудно более 5 раз</string>
+
+    <string name="windmill10percent">из Turtel Frezze поднимаем левую ногу вверх, правую параллельно полу более 5 раз</string>
+    <string name="windmill20percent">пункт 1 + сходим плавно с руки, ноги тянем на себя и при этом закручиваемся на спине</string>
+    <string name="windmill30percent">пункт 2 + тянем ноги за голову и через плечо переходим в черепаху</string>
+    <string name="windmill40percent">делаем по одному обороту более 5 раз</string>
+    <string name="windmill50percent">пробуем сделать 2 оборота подряд, не касаясь ногами пола</string>
+    <string name="windmill60percent">>делаем 5 оборотов подряд, не касаясь ногами пола</string>
+    <string name="windmill70percent">делаем оборот через голову с руками</string>
+    <string name="windmill80percent">делаем так более 5 раз</string>
+    <string name="windmill90percent">делаем оборот через голову без руками</string>
+    <string name="windmill100percent">делаем более 5 оборотов через голову без рук</string>
+
+    <string name="web10percent">из Turtel Frezze, делая заход на windmill переходим на спину и сгибаем одну ногу</string>
+    <string name="web20percent">из положения (10%) поднимаем руки на себя, при этом отрываем таз и резко переходим в Turtel Frezze</string>
+    <string name="web30percent">делаем пункт (20%) более 2 раз в обе стороны</string>
+    <string name="web40percent">делаем 1 оборот</string>
+    <string name="web50percent">делаем 2 оборота</string>
+    <string name="web60percent">делаем более 5 оборотов</string>
+    <string name="web70percent">стараемся выйти как можно выше на голову и сделать 1 оборот</string>
+    <string name="web80percent">делаем более 3 оборотов</string>
+    <string name="web90percent">делаем более 5 оборотов</string>
+    <string name="web100percent">делаем более 10 оборотов</string>
+
+    <string name="wolf10percent">делаем более 2 оборотов, касаясь ногами пола</string>
+    <string name="wolf20percent">делаем более 6 оборотов, касаясь ногами пола</string>
+    <string name="wolf30percent">делаем более 8 оборотов, касаясь ногами пола</string>
+    <string name="wolf40percent">делаем более 10 оборотов, касаясь ногами пола</string>
+    <string name="wolf50percent">делаем 1 оборот, не касаясь ногами</string>
+    <string name="wolf60percent">делаем более 2 оборотов, не касаясь ногами</string>
+    <string name="wolf70percent">делаем более 4 оборотов, не касаясь ногами</string>
+    <string name="wolf80percent">делаем более 6 оборотов, не касаясь ногами</string>
+    <string name="wolf90percent">делаем более 8 оборотов, не касаясь ногами</string>
+    <string name="wolf100percent">делаем более 10 оборотов, не касаясь ногами</string>
+
+    <string name="headspin10percent">держа ноги перед собой, заводим обе руки по кругу и затем доварачиваем корпус</string>
+    <string name="headspin20percent">делаем пункт (10%) более 2 кругов</string>
+    <string name="headspin30percent">делаем пункт (10%) более 5 кругов</string>
+    <string name="headspin40percent">стараемся поставить руки максимально далеко</string>
+    <string name="headspin50percent">делаем пункт (40%) более 2 кругов</string>
+    <string name="headspin60percent">делаем пункт (40%) более 5 кругов</string>
+    <string name="headspin70percent">делаем пункт (40%) более 10 кругов</string>
+    <string name="headspin80percent">набираем скорость и пытаемся сделать оборот без касания рук</string>
+    <string name="headspin90percent">пытаемся сделать более 3 оборотов без касания рук</string>
+    <string name="headspin100percent">добавляем вариации с ногами</string>
+
+    <string name="munchmill10percent">голова и ноги на полу, таз вверху. Делаем мах руками, переходя на спину скрещиваем ноги и рывком поднимаемся в исходное положение</string>
+    <string name="munchmill20percent">из Turtel Frezze делаем заход на Windmill, при этом когда переходим на лопатки скрещиваем ноги, при этом таз отрываем от пола, делаем небольшой рывок ногами вверх и переходим в Turtel Frezze</string>
+    <string name="munchmill30percent">соединяем пункт (20%) с Windmill</string>
+    <string name="munchmill40percent">соединяем пункт (20%) с Windmill более 3 оборотов</string>
+    <string name="munchmill50percent">выходим в голову и опускаемся вниз</string>
+    <string name="munchmill60percent">выходим в голову и опускаемся вниз более 3 раз</string>
+    <string name="munchmill70percent">делаем 1 полный оборот</string>
+    <string name="munchmill80percent">делаем 3 оборота</string>
+    <string name="munchmill90percent">делаем 5  оборота</string>
+    <string name="munchmill100percent">делаем более 10 оборотов</string>
+
+    <string name="flare10percent">из исходного положения правой ногой «подбиваем» левую, правая идет по земле, левая максимально на себя и фиксируем это положение</string>
+    <string name="flare20percent">1 пункт + правую теперь поднимаем вверх, левая опускается</string>
+    <string name="flare30percent">из 2 пункта левую уводим назад, таз держим высоко</string>
+    <string name="flare40percent">делаем 1 полный оборот</string>
+    <string name="flare50percent">Делаем один оборот + 1 пункт</string>
+    <string name="flare60percent">Делаем один оборот + 2 пункт</string>
+    <string name="flare70percent">Делаем 2 оборота при этом таз поднимаем высоко</string>
+    <string name="flare80percent">Делаем более 4 оборотов</string>
+    <string name="flare90percent">Делаем более 6 оборотов</string>
+    <string name="flare100percent">Делаем более 10 оборотов</string>
+
+    <string name="ninety10percent">с копейки выходим в руки и скрещиваем ноги согнутые в коленках</string>
+    <string name="ninety20percent">выжимаем ноги на верх, делая 1 оборот</string>
+    <string name="ninety30percent">2 оборота</string>
+    <string name="ninety40percent">3 оборота</string>
+    <string name="ninety50percent">4 оборота</string>
+    <string name="ninety60percent">5 оборотов</string>
+    <string name="ninety70percent">6 оборотов</string>
+    <string name="ninety80percent">7 оборотов</string>
+    <string name="ninety90percent">8 оборотов</string>
+    <string name="ninety100percent">делаем более 10 оборотов</string>
+
+    <string name="halo10percent">из Turtel Frezze переходим в Chair, затем на спину более 5 раз </string>
+    <string name="halo20percent">из Turtel Frezze переходим в Chair, затем в плечо и назад в Turtel Frezze более 5 раз</string>
+    <string name="halo30percent">из Turtel Frezze переходим в Chair, через голову сразу в Turtel Frezze</string>
+    <string name="halo40percent">из Turtel Frezze переходим в Chair, через голову сразу в Turtel Frezze более 5раз</string>
+    <string name="halo50percent">делаем 1 оброт</string>
+    <string name="halo60percent">более 2 оборотов</string>
+    <string name="halo70percent">более 4 оборотов</string>
+    <string name="halo80percent">более 6 оборотов</string>
+    <string name="halo90percent">более 8 оборотов</string>
+    <string name="halo100percent">более 10 оборотов</string>
+
+    <string name="jackhammer10percent">при балансе на одной руке в Turtel Frezze, выпрыгиваем вверх и возвращаемся назад касаясь ногами пола более 5 раз</string>
+    <string name="jackhammer20percent">при балансе на одной руке в Turtel Frezze, выпрыгиваем вверх и возвращаемся назад касаясь ногами пола более 10 раз</string>
+    <string name="jackhammer30percent">при балансе на одной руке в Turtel Frezze, выпрыгиваем вверх и возвращаемся назад не касаясь ногами пола более 5 раз</string>
+    <string name="jackhammer40percent">из Turtel Frezze пробуем сделать один прыжок</string>
+    <string name="jackhammer50percent">более 2 прыжков</string>
+    <string name="jackhammer60percent">более 3 прыжков</string>
+    <string name="jackhammer70percent">более 4 прыжков</string>
+    <string name="jackhammer80percent">более 5 прыжков</string>
+    <string name="jackhammer90percent">более 7 прыжков</string>
+    <string name="jackhammer100percent">более 10 прыжков</string>
+
+    <string name="ufo10percent">делаем более 2 оборотов, касаясь коленями пола</string>
+    <string name="ufo20percent">делаем более 4 оборотов, касаясь коленями пола</string>
+    <string name="ufo30percent">делаем более 6 оборотов, касаясь коленями пола</string>
+    <string name="ufo40percent">делаем более 8 оборотов, касаясь коленями пола</string>
+    <string name="ufo50percent">делаем более 10 оборотов, касаясь коленями пола</string>
+    <string name="ufo60percent">делаем более 2 оборотов, не касаясь коленями пола</string>
+    <string name="ufo70percent">делаем более 4 оборотов, не касаясь коленями пола</string>
+    <string name="ufo80percent">делаем более 6 оборотов, не касаясь коленями пола</string>
+    <string name="ufo90percent">делаем более 8 оборотов, не касаясь коленями пола</string>
+    <string name="ufo100percent">делаем более 10 оборотов, не касаясь коленями пола</string>
+
+    <string name="cricket10percent">прыжки в Turtel Frezze на одной руке более 5 раз</string>
+    <string name="cricket20percent">прыжки в Turtel Frezze на одной руке более 10 раз</string>
+    <string name="cricket30percent">прыжки в Turtel Frezze на одной руке более 5 раз, ноги не косаются земли </string>
+    <string name="cricket40percent">закручиваемся в Turtel Frezze и делаем один прыжок (ноги могут коснуться земли) более 5 раз</string>
+    <string name="cricket50percent">закручиваемся в Turtel Frezze и делаем один прыжок (ноги могут коснуться земли) более 10 раз</string>
+    <string name="cricket60percent">делаем 1 оборот, не касаясь ногами пола</string>
+    <string name="cricket70percent">делаем более 3 оборотов, не касаясь ногами пола</string>
+    <string name="cricket80percent">делаем более 5 оборотов, не касаясь ногами пола</string>
+    <string name="cricket90percent">делаем более 7 оборотов, не касаясь ногами пола</string>
+    <string name="cricket100percent">делаем более 10 оборотов, не касаясь ногами пола</string>
+
+    <string name="elbowairflare10percent">переходим с правого локтя(для правшей) на левый 1 раз</string>
+    <string name="elbowairflare20percent">добавляем выход в руки и возвращение в правый локоть</string>
+    <string name="elbowairflare30percent">делаем более 5 таких переходов</string>
+    <string name="elbowairflare40percent">делаем более 10 таких переходов</string>
+    <string name="elbowairflare50percent">в момент когда руки вместе уводим голову под себя, более 5 раз</string>
+    <string name="elbowairflare60percent">пункт (50%) более 10 раз</string>
+    <string name="elbowairflare70percent">делаем один полный оборот</string>
+    <string name="elbowairflare80percent">делаем более 5 оборотов</string>
+    <string name="elbowairflare90percent">раскрываем ноги и делаем более 5 оборотов</string>
+    <string name="elbowairflare100percent">пункт (90%) более 10 оборотов</string>
+
+    <string name="airflare10percent">ходим по кругу, колени к животу более 5 кругов</string>
+    <string name="airflare20percent">ходим по кругу, колени к животу, при этом создаем эффект прыжка на входящую руку более 5 раз</string>
+    <string name="airflare30percent">пункт (20%) при этом убираем голову под себя, более 5 раз</string>
+    <string name="airflare40percent">стараемся добавить толчок правой рукой, более 5 раз</string>
+    <string name="airflare50percent">стараемся раскрыться и прыгнуть один раз</string>
+    <string name="airflare60percent">2 раза</string>
+    <string name="airflare70percent">4 раза</string>
+    <string name="airflare80percent">6 раза</string>
+    <string name="airflare90percent">8 раз</string>
+    <string name="airflare100percent">более 10 раз</string>
+
+    <string-array name="sortListNoSubscription">
+        <item>Battles</item>
+    </string-array>
+
+    <string-array name="sortList">
+        <item>Breaking</item>
+        <item>Battles</item>
+        <item>Frezzes</item>
+        <item>PowerMoves</item>
+        <item>ОФП</item>
+        <item>Растяжка</item>
+        <item>BabyFrezze</item>
+        <item>ChairFrezze</item>
+        <item>ElbowFrezze</item>
+        <item>HeadFrezze</item>
+        <item>HeadHollowback</item>
+        <item>Hollowback</item>
+        <item>Invert</item>
+        <item>OneHand</item>
+        <item>ShoulderFrezze</item>
+        <item>TurtleFrezze</item>
+        <item>AirFlare</item>
+        <item>BackSpin</item>
+        <item>Cricket</item>
+        <item>ElbowAirflare</item>
+        <item>Flare</item>
+        <item>Jackhammer</item>
+        <item>Halo</item>
+        <item>HeadSpin</item>
+        <item>Munchmill</item>
+        <item>Ninety_Nine</item>
+        <item>Swipes</item>
+        <item>Turtle</item>
+        <item>Ufo</item>
+        <item>Web</item>
+        <item>Windmill</item>
+        <item>Wolf</item>
+        <item>Уголок</item>
+        <item>Мостик</item>
+        <item>Стойка на пальцах</item>
+        <item>Стойка на руках</item>
+        <item>Горизонт</item>
+        <item>Отжимания</item>
+        <item>Бабочка</item>
+        <item>Складка</item>
+        <item>Плечи</item>
+        <item>Шпагат</item>
+
+    </string-array>
+
+    <string-array name="elementsBDList">
+        <item>rating</item>
+        <item>battle_rating</item>
+        <item>frezze_rating</item>
+        <item>powermove_rating</item>
+        <item>ofp_rating</item>
+        <item>streching_rating</item>
+        <item>babyfrezze</item>
+        <item>chairfrezze</item>
+        <item>elbowfrezze</item>
+        <item>headfrezze</item>
+        <item>headhollowbackfrezze</item>
+        <item>hollowbackfrezze</item>
+        <item>invertfrezze</item>
+        <item>onehandfrezze</item>
+        <item>shoulderfrezze</item>
+        <item>turtlefrezze</item>
+        <item>airflare</item>
+        <item>backSpin</item>
+        <item>cricket</item>
+        <item>elbowairflare</item>
+        <item>flare</item>
+        <item>jackhammer</item>
+        <item>halo</item>
+        <item>headSpin</item>
+        <item>munchmill</item>
+        <item>ninety_nine</item>
+        <item>swipes</item>
+        <item>turtle</item>
+        <item>ufo</item>
+        <item>web</item>
+        <item>windmill</item>
+        <item>wolf</item>
+        <item>angle</item>
+        <item>bridge</item>
+        <item>finger</item>
+        <item>handstand</item>
+        <item>horizont</item>
+        <item>pushups</item>
+        <item>butterfly</item>
+        <item>fold</item>
+        <item>shoulders</item>
+        <item>twine</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="subscriptionNull">У Вас отсутствует подписка</string>
+    <string name="subscriptionFinish">Ваша подписка закончена</string>
+    <string name="notInternet">Отсутствует подключение к интеренету</string>
+    <string name="checkYourEmail">Проверьте Вашу почту для подтверждения Email</string>
+</resources>
